@@ -82,4 +82,3 @@ async def validarSpoofing(host: InputSpoofing):
             return InputSpoofingResponse(ip_host=host.ip_host,realParameters=False,msg="Se ha detectado falsificación de credenciales")
     else:
         return InputSpoofingResponse(ip_host=host.ip_host,realParameters=False,msg="No se ha encontrado la dirección IP enviada!")
-        
